@@ -31,8 +31,8 @@ class BurgerIncredient extends Component {
             incredient = <div className={classes.Salad}></div>;
             break;
 
-            case('becon'):
-            incredient = <div className={classes.Becon}></div>;
+            case('bacon'):
+            incredient = <div className={classes.Bacon}></div>;
             break;
 
             default:
@@ -43,7 +43,7 @@ class BurgerIncredient extends Component {
     }
 }
 
-BurgerIncredient.PropTypes = {
+BurgerIncredient.propTypes = {
     type: PropTypes.string.isRequired
 };
 
